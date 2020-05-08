@@ -17,4 +17,4 @@ $ wireworld wirefile.txt
 This project uses neillncurses.h as a wrapper for ncurses, created by Neill Campbell. 
 
 ## Disclaimer
-This work was submitted for the COMSM1201 Programming in C module at the University of Bristol. Please note that no student can use this work without my permission or attempt to pass this off as their own. 
+This work was submitted for the COMSM1201 Programming in C module at the University of Bristol. Please note that no student can use this work without my permission or attempt to pass this work off as their own. 
