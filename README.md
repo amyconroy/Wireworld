@@ -2,11 +2,11 @@
 Adaption of the [wireworld cellular automaton](https://en.wikipedia.org/wiki/Wireworld), completed in October 2019 for the Programming in C module of the MSc Computer Science Course at the University of Bristol. 
 
 Wireworld is formed from a 2D grid of cells, simulating digitical electronics. The four states for the cells are 'empty', 'electron head', 'electron tail', or 'copper'. The next generation of cells follows the rules, where n is the number of electron heads in the 8-surrounding cells: 
-• empty − > empty
-• electron head − > electron tail
-• electron tail − > copper
-• copper−>electronhead if n==1 or n==2 
-• copper − > copper otherwise
+* empty − > empty
+* electron head − > electron tail
+* electron tail − > copper
+* copper−>electronhead if n==1 or n==2 
+* copper − > copper otherwise
 
 ## Usage
 
