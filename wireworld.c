@@ -293,5 +293,3 @@ void printarray(char gen[WIDTH][WIDTH]){
     }
 }
 */
-
-100%
