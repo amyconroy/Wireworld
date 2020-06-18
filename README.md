@@ -8,7 +8,7 @@ Adaption of the [wireworld cellular automaton](https://en.wikipedia.org/wiki/Wir
 
 ## Usage
 ```
-$ gcc -pedantic -ansi  -Wall -Wextra -Wfloat-equal -O2 wireworld.c -o wireworld
+$ gcc wireworld.c neillncurses.c -Wall -Wfloat-equal -Wextra -O2 -pedantic -ansi -lncurses -lm -o wireworld
 ```
 To run, enter the wireworld text file as the second argument (example txt files are included in this repository)
 ```
