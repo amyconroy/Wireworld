@@ -6,6 +6,8 @@ Adaption of the [wireworld cellular automaton](https://en.wikipedia.org/wiki/Wir
 * copper−>electronhead if n==1 or n==2 
 * copper − > copper otherwise
 
+![Example](example.gif)
+
 ## Usage
 ```
 $ gcc wireworld.c neillncurses.c -Wall -Wfloat-equal -Wextra -O2 -pedantic -ansi -lncurses -lm -o wireworld
