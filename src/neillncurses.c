@@ -113,7 +113,7 @@ void Neill_NCURS_Init(NCURS_Simplewin *sw)
       Even manual says no point in keeping return value, hence cast */
    (void)initscr();
    clear();
-   start_color();	
+   start_color();
    if(has_colors() == FALSE){
         endwin();
 	fprintf(stderr, "Your terminal does not support colour\n");
@@ -163,7 +163,7 @@ void Neill_NCURS_PrintSubArray(char *a, int width, int height, int stride, NCURS
       /* Don't repeat same warning for same array.Nasty. */
       if(preva != a){
          char str[256];
-         sprintf(str, "Terminal (%d,%d) too small for array (%d %d)", termx, termy, width, height); 
+         sprintf(str, "Terminal (%d,%d) too small for array (%d %d)", termx, termy, width, height);
          Neill_NCURS_Warning(str);
          preva = a;
       }
