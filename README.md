@@ -1,4 +1,6 @@
-## Wireworld
+<h2 align="center"> Wireworld </h2>
+<p align="center"><img src="example.gif"width=35%></p>
+
 Adaption of the [wireworld cellular automaton](https://en.wikipedia.org/wiki/Wireworld), completed in October 2019. Wireworld is formed from a 2D grid of cells, simulating digitical electronics. The four states for the cells are 'empty', 'electron head', 'electron tail', or 'copper'. The next generation of cells follows the rules, where n is the number of electron heads in the 8-surrounding cells: 
 * empty − > empty
 * electron head − > electron tail
@@ -6,7 +8,7 @@ Adaption of the [wireworld cellular automaton](https://en.wikipedia.org/wiki/Wir
 * copper−>electronhead if n==1 or n==2 
 * copper − > copper otherwise
 
-![Example](example.gif)
+
 
 ## Usage
 ```
