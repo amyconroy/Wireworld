@@ -12,13 +12,13 @@ Adaption of the [wireworld cellular automaton](https://en.wikipedia.org/wiki/Wir
 ```
 $ gcc wireworld.c neillncurses.c -Wall -Wfloat-equal -Wextra -O2 -pedantic -ansi -lncurses -lm -o wireworld
 ```
-To run, enter the wireworld text file as the second argument (example txt files are included in this repository)
+To run, enter the wireworld text file as the second argument (example .txt files are included in this repository)
 ```
 $ wireworld wirefile.txt
 ```
 
 ### ncurses
-This project uses neillncurses.h as a wrapper for ncurses, created by Neill Campbell. 
+This project uses neillncurses.h as a wrapper for ncurses, created by Neill Campbell at the University of Bristol. 
 
 ## Disclaimer
 This work was submitted for the COMSM1201 Programming in C module at the University of Bristol. Please note that no student can use this work without my permission or attempt to pass this work off as their own. 
