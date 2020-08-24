@@ -5,7 +5,7 @@ Adaption of the [wireworld cellular automaton](https://en.wikipedia.org/wiki/Wir
 * empty − > empty
 * electron head − > electron tail
 * electron tail − > copper
-* copper−>electronhead if n==1 or n==2 
+* copper−> electronhead if n==1 or n==2 
 * copper − > copper otherwise
 
 
